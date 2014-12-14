@@ -1,8 +1,6 @@
 What should I know to implement a login system for my website?
 ==============================================================
 
-*****
-
 
 I am implementing a login model for my website and went on an exploratory path on what is safe and what is not. There are two perspectives to look at: the server's implementor and the end user of your website.
 
@@ -105,6 +103,8 @@ Final question
 --------------
 
 All this seems abstractable, what are some good libraries out there that I use readily?
+
+
 
 
 

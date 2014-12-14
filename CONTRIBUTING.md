@@ -1,4 +1,6 @@
-There are three ways you can help:
+There are *three* ways you can help:
+
+*****
 
 1. Do you have a question about passwords and the login workflow that you want answered?
     
