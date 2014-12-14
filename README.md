@@ -1,7 +1,14 @@
 What should I know to implement a login system for my website?
 ==============================================================
 
+*****
+
+
 I am implementing a login model for my website and went on an exploratory path on what is safe and what is not. There are two perspectives to look at: the server's implementor and the end user of your website.
+
+
+*****
+
 
 Server implementor's perspective
 --------------------------------
@@ -24,43 +31,46 @@ Server implementor's perspective
 
  9. What should I do if my user forgot their password?
 
-10. How should passwords be?
+ 10. How should passwords be?
 
-11. People talk about salt and other edibles but can hackers only access db? Can they not access servers?
+ 11. People talk about salt and other edibles but can hackers only access db? Can they not access servers?
 
-12. What is hashing? Why do they say that it is one way street?
+ 12. What is hashing? Why do they say that it is one way street?
 
-13. What information do I have to verify before sending a reset link email? Why do most websites just ask a mail id? Can it be that a mail is id compromised and the worst?
+ 13. What information do I have to verify before sending a reset link email? Why do most websites just ask a mail id? Can it be that a mail is id compromised and the worst?
 
-14. Obviously email verification is one that happens. Question is, is it enough?
+ 14. Obviously email verification is one that happens. Question is, is it enough?
 
-15. Why should reset link have timeouts?
+ 15. Why should reset link have timeouts?
 
-16. What is an ideal timeout time?
+ 16. What is an ideal timeout time?
 
-17. Ok, the user clicked on the link, what next?
+ 17. Ok, the user clicked on the link, what next?
 
-18. Ok, the user reset their password, should they relogin or directly be logged in?
+ 18. Ok, the user reset their password, should they relogin or directly be logged in?
 
-19. Ok, the user reset the password, what happens to the record in db?
+ 19. Ok, the user reset the password, what happens to the record in db?
 
-20. So, everything rests on my mail account? That's scarry! What happens if someone gets access to my mail account?
+ 20. So, everything rests on my mail account? That's scarry! What happens if someone gets access to my mail account?
 
-21. Some sites have secret questions on clicking on link. How should a secret question be?
+ 21. Some sites have secret questions on clicking on link. How should a secret question be?
 
-22. Where and how should we store these secret questions and answers for a user?
+ 22. Where and how should we store these secret questions and answers for a user?
 
-23. Do we need a username at all, in the login screen and forgot password screen? 
+ 23. Do we need a username at all, in the login screen and forgot password screen? 
 
-24. Who(IP) initiated the reset? Do we need to tell this in email?
+ 24. Who(IP) initiated the reset? Do we need to tell this in email?
 
-25. What are OpenID and OAuth?
+ 25. What are OpenID and OAuth?
 
-26. How should we handle wrong password entry? How many attempts should we give? Infinite?
+ 26. How should we handle wrong password entry? How many attempts should we give? Infinite?
 
-27. Ok, my code is all secure now, am I done? Not yet, who is your hosting? Who is having your database?
+ 27. Ok, my code is all secure now, am I done? Not yet, who is your hosting? Who is having your database?
 
-28. Some websites send code to registered mobile number, if they hash the mobile number, then how can they un-hash it , to send me the code? Or do they store mobile number un-hashed, and hash only mail id and username?
+ 28. Some websites send code to registered mobile number, if they hash the mobile number, then how can they un-hash it , to send me the code? Or do they store mobile number un-hashed, and hash only mail id and username?
+
+
+*****
 
 
 End-user perspective
@@ -84,8 +94,11 @@ End-user perspective
 
  9. My chrome remembers all my passwords, and I don't click on forgot password ever. Is this safe?
 
-10. Banking websites don't allow passwords to be stored, is this something that the website has imposed, or it something that chrome does?
+ 10. Banking websites don't allow passwords to be stored, is this something that the website has imposed, or it something that chrome does?
 
+
+
+*****
 
 
 Final question
