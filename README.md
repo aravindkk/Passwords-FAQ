@@ -11,7 +11,7 @@ I am implementing a login model for my website and went on an exploratory path o
 Server implementor's perspective
 --------------------------------
 
- 1. Do I need to do anything special in my server to support SSL/misc?
+ 1. Do I need to do anything special in my server to support SSL?
 
  2. Ok, the password came to my server safely. What do I do next?
 
